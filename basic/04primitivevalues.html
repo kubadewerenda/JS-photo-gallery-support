@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //JS jest jezykiem dynamicznie 
+        // typowanym, czli mozemy przypisac do np int zmiennej stringa
+        let num = 100;
+        let data = 10;//int-Number
+        data = "Siemka";//string
+        data = 'Siemka';
+        data = `Siemka
+            i znowu ${num}
+            SIEMAA
+        `;//backtiki mozna w kilku liniach oraz pozwala na osadzanie zmiennych 
+        // w stringu, nazywamy go template literals 
+        console.log(data);
+        let flag = true;//boolean
+        flag = false;
+
+        let someText;//Brak przypisania wartosci przypisze undefined
+        console.log(someText);
+        someText = "Siemka";
+        console.log(someText);
+        someText = null;//Null oznacza ze zmienna jest pusta, nie ma wartosci
+
+        //Symbol
+        //BigInt
+    </script>
+</body>
+</html>

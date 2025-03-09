@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let data = 2;
+
+        if(data > 5){
+            console.log("Wieksza od 5");
+        }
+
+        if(data === 2) {
+            console.log("rowna 2");
+        }
+
+        if(data < 5){
+            console.log("MNiejsza od 5");
+        }
+
+        let age = 20;
+
+        if(age >= 18){
+            console.log("Może głosować");
+        }else{
+            console.log("Nie może głosować");
+        }
+
+        let sportRanking = 2;
+
+        if(sportRanking === 1){
+            console.log("Pierwsze miejsce");
+        }else if(sportRanking === 2){
+            console.log("Drugie miejsce");
+        }else{
+            console.log("Trzecie miejsce");
+        }
+
+        let x = 10;
+        let y = 99;
+
+        if(x > y){
+            console.log(`${x} jest wieksze od ${y}`);
+        }else{
+            console.log(`${y} jest wieksze od ${x}`);
+        }
+
+        let topSpeed = 310;
+
+        switch(topSpeed){//deklaracja
+            case 100://scenariusze
+                console.log("Mała prędkość maksymalna");
+                break;//koniec watku zawsze
+            case 150:
+                console.log("Duża prędkość maksymalna");
+                break;
+            case 300:
+                console.log("Bardzo duza predkosc");
+                break;
+            case 310://tutaj mozemy polaczyc kilka case nie dawajac break
+            case 320:
+            case 330:
+                console.log("Prędkośc powyzej 300 km/h");
+                break;
+            default://domyslna odpwoiedz, nie trza dawac break, zawsze na koniec
+                console.log("Brak info o tej prędkości");
+        }   
+    </script>
+</body>
+</html>

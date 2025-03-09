@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //1 wersja if else if
+        let temp = 50;
+
+        if(temp === -10) {
+            console.log("b.zimno");
+        }else if(temp === 0) {
+            console.log("zimno");
+        }else if(temp === 10) {
+            console.log("wiosna");
+        }else if(temp === 20) {
+            console.log("ciepło");
+        }else if(temp === 30) {
+            console.log("gorąco");
+        }else if(temp < -10 || temp > 30) {
+            console.log("Zostajemy w domu")
+        }
+        //2 werdsja switch
+
+        switch(temp){
+            case -10:
+                console.log("b.zimno");
+                break;
+            case 0:
+                console.log("zimno");
+                break;
+            case 10:
+                console.log("wiosna");
+                break;
+            case 20:
+                console.log("ciepło");
+                break;
+            case 30:
+                console.log("gorąco");
+                break;
+            default:
+                console.log("Zostajemy w domu")
+        }
+    </script>
+</body>
+</html>
